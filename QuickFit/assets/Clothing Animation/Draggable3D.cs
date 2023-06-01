@@ -16,7 +16,6 @@ public class Draggable3D : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        Debug.Log("Down");
         mousePosition = Input.mousePosition - GetMousePos();   
     }
 
@@ -29,10 +28,6 @@ public class Draggable3D : MonoBehaviour
         transform.position = initialPosition;
     }
     
-
-    private void OnMouseEnter() {
-        Debug.Log("enter");
-    }
 
      
 }
